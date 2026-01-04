@@ -125,3 +125,19 @@ a {
     width: 100%;
 }
 
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 5px; /* Tambah jarak antar tombol */
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
