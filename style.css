@@ -107,3 +107,21 @@ h2 span {
     color: white;
 }
 
+/* Menghilangkan garis bawah pada link tombol */
+a {
+    text-decoration: none;
+}
+
+/* Efek saat tombol ditekan */
+.btn:active {
+    transform: scale(0.95);
+    background: #25d366; /* Warna hijau khas WhatsApp */
+    color: white;
+}
+
+.btn-link {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
